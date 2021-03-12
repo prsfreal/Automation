@@ -1,0 +1,959 @@
+12/18/2020 11:24:05 AM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 11:24:43 AM: INFO: PASSED
+12/18/2020 01:55:53 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 01:55:58 PM: INFO: Entered the top level TRY
+12/18/2020 01:55:58 PM: INFO: Entered the FOR loop for the --1-- time
+12/18/2020 01:56:04 PM: INFO: Passed a data driven test #1
+12/18/2020 01:56:18 PM: INFO: ['Pass']
+12/18/2020 01:56:18 PM: INFO: Entered the FOR loop for the --2-- time
+12/18/2020 01:56:30 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 51, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 01:56:30 PM: INFO: self.lp.displayName XPATH = //*[@id="account_display_name"]
+
+12/18/2020 01:56:30 PM: INFO: Entered the FOR loop for the --3-- time
+12/18/2020 01:56:40 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 51, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 01:56:40 PM: INFO: self.lp.displayName XPATH = //*[@id="account_display_name"]
+
+12/18/2020 01:56:40 PM: INFO: ['Pass']
+12/18/2020 02:01:26 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:01:33 PM: INFO: Entered the top level TRY
+12/18/2020 02:01:33 PM: INFO: Entered the FOR loop for the --1-- time
+12/18/2020 02:01:40 PM: INFO: Passed a data driven test #1
+12/18/2020 02:01:55 PM: INFO: ['Pass']
+12/18/2020 02:01:55 PM: INFO: Entered the FOR loop for the --2-- time
+12/18/2020 02:02:05 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 48, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 02:02:05 PM: INFO: self.lp.displayName XPATH = //*[@id="account_display_name"]
+
+12/18/2020 02:02:05 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 48, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 63, in test_login_DDT
+    assert False
+AssertionError: assert False
+12/18/2020 02:02:05 PM: INFO: self.lp.displayName XPATH = //*[@id="username"]
+
+12/18/2020 02:05:19 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:05:24 PM: INFO: Entered the top level TRY
+12/18/2020 02:05:24 PM: INFO: Entered the FOR loop for the --1-- time
+12/18/2020 02:05:31 PM: INFO: Passed a data driven test #1
+12/18/2020 02:05:45 PM: INFO: ['Pass']
+12/18/2020 02:05:45 PM: INFO: Entered the FOR loop for the --2-- time
+12/18/2020 02:05:55 PM: INFO: Incorrect login = FAIL
+12/18/2020 02:05:55 PM: INFO: -FAILED LOGIN ATTEMPT
+12/18/2020 02:06:00 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 71, in test_login_DDT
+    self.waitAndsee(self.lp.confirmLogout)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 02:06:00 PM: INFO: self.lp.displayName XPATH = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+
+12/18/2020 02:06:00 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 71, in test_login_DDT
+    self.waitAndsee(self.lp.confirmLogout)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 77, in test_login_DDT
+    assert False
+AssertionError: assert False
+12/18/2020 02:06:00 PM: INFO: self.lp.displayName XPATH = //*[@id="username"]
+
+12/18/2020 02:07:46 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:07:52 PM: INFO: Entered the top level TRY
+12/18/2020 02:07:52 PM: INFO: Entered the FOR loop for the --1-- time
+12/18/2020 02:08:00 PM: INFO: Passed a data driven test #1
+12/18/2020 02:08:17 PM: INFO: ['Pass']
+12/18/2020 02:08:17 PM: INFO: Entered the FOR loop for the --2-- time
+12/18/2020 02:08:27 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 48, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 02:08:27 PM: INFO: self.lp.displayName XPATH = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+
+12/18/2020 02:08:27 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 48, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 64, in test_login_DDT
+    assert False
+AssertionError: assert False
+12/18/2020 02:08:27 PM: INFO: self.lp.displayName XPATH = //*[@id="username"]
+
+12/18/2020 02:13:52 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:13:57 PM: INFO: Entered the top level TRY
+12/18/2020 02:13:57 PM: INFO: Entered the FOR loop for the --1-- time
+12/18/2020 02:14:04 PM: INFO: Test 1 = PASS
+12/18/2020 02:14:17 PM: INFO: ['Pass']
+12/18/2020 02:14:17 PM: INFO: Entered the FOR loop for the --2-- time
+12/18/2020 02:14:26 PM: ERROR: Test 2 = FAIL
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 47, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 02:14:26 PM: INFO: ['Pass', 'Pass']
+12/18/2020 02:14:26 PM: INFO: Entered the FOR loop for the --3-- time
+12/18/2020 02:14:36 PM: ERROR: Test 3 = FAIL
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DataDrivenLogin.py", line 47, in test_login_DDT
+    self.waitAndsee(self.lp.displayName)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 02:14:36 PM: INFO: ['Pass', 'Pass', 'Pass']
+12/18/2020 02:14:36 PM: INFO: ['Pass', 'Pass', 'Pass']
+12/18/2020 02:21:45 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:21:51 PM: INFO: Entered the top level TRY
+12/18/2020 02:21:57 PM: INFO: Test 1 = PASS
+12/18/2020 02:22:11 PM: INFO: ['Pass']
+12/18/2020 02:22:21 PM: INFO: Test 2 = FAIL
+12/18/2020 02:22:21 PM: INFO: ['Pass', 'Fail']
+12/18/2020 02:22:30 PM: INFO: Test 3 = FAIL
+12/18/2020 02:22:30 PM: INFO: ['Pass', 'Fail', 'Fail']
+12/18/2020 02:22:30 PM: INFO: ['Pass', 'Fail', 'Fail']
+12/18/2020 02:24:46 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:24:51 PM: INFO: Entered the top level TRY
+12/18/2020 02:24:57 PM: INFO: Test 1 = PASS
+12/18/2020 02:25:10 PM: INFO: ['Pass']
+12/18/2020 02:25:21 PM: INFO: Test 2 = FAIL
+12/18/2020 02:25:21 PM: INFO: admin@validateservice.comVSSadmin@12
+12/18/2020 02:25:21 PM: INFO: ['Pass', 'Fail']
+12/18/2020 02:25:30 PM: INFO: Test 3 = FAIL
+12/18/2020 02:25:30 PM: INFO: admin@validateservice.comVSSadmin@1
+12/18/2020 02:25:30 PM: INFO: ['Pass', 'Fail', 'Fail']
+12/18/2020 02:27:03 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:27:08 PM: INFO: Entered the top level TRY
+12/18/2020 02:27:15 PM: INFO: Test 1 = PASS
+12/18/2020 02:27:27 PM: INFO: ['Pass']
+12/18/2020 02:27:40 PM: INFO: Test 2 = FAIL
+12/18/2020 02:27:40 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@12
+12/18/2020 02:27:40 PM: INFO: ['Pass', 'Fail']
+12/18/2020 02:27:49 PM: INFO: Test 3 = FAIL
+12/18/2020 02:27:49 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@1
+12/18/2020 02:27:49 PM: INFO: ['Pass', 'Fail', 'Fail']
+12/18/2020 02:35:57 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 02:36:31 PM: INFO: Test 1 = PASS
+12/18/2020 02:36:46 PM: INFO: ['Pass']
+
+12/18/2020 02:36:56 PM: INFO: Test 2 = FAIL
+12/18/2020 02:36:56 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@12
+12/18/2020 02:36:56 PM: INFO: ['Pass', 'Fail']
+
+12/18/2020 02:37:06 PM: INFO: Test 3 = FAIL
+12/18/2020 02:37:06 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@1
+12/18/2020 02:37:06 PM: INFO: ['Pass', 'Fail', 'Fail']
+
+12/18/2020 03:52:06 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 03:52:31 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 92, in test_0001
+    self.ddfc.setzip(self.zip)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 49, in setzip
+    self.driver.find_element_by_xpath(self.orderzip).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'float' has no len()
+12/18/2020 03:52:31 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 03:55:24 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 03:55:43 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 93, in test_0001
+    self.ddfc.setzip(self.zip)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 49, in setzip
+    self.driver.find_element_by_xpath(self.orderzip).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'float' has no len()
+12/18/2020 03:55:43 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 03:57:38 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 03:57:58 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 93, in test_0001
+    self.ddfc.setzip(self.zip)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 49, in setzip
+    self.driver.find_element_by_xpath(self.orderzip).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'float' has no len()
+12/18/2020 03:57:58 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:01:08 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:01:32 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 100, in test_0001
+    self.ddfc.setcardnum(self.ccnum)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 77, in setcardnum
+    self.driver.find_element_by_name(x).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="4242424242424242"]"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:01:32 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:03:02 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:03:27 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 99, in test_0001
+    self.ddfc.setcardnum(self.ccnum)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 77, in setcardnum
+    self.driver.find_element_by_name(x).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="4242424242424242"]"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:03:27 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:05:16 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:05:41 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 99, in test_0001
+    self.ddfc.setcardnum(self.ccnum)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 77, in setcardnum
+    self.driver.find_element_by_name(x).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="4242424242424242"]"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:05:41 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:05:56 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+12/18/2020 04:06:53 PM: INFO: PASSED
+12/18/2020 04:11:15 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:11:36 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 86, in test_0001
+    self.ddfc.setfname(self.fname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 29, in setfname
+    self.driver.find_element_by_xpath(self.orderfirstname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 04:11:36 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:18:05 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:18:37 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 86, in test_0001
+    self.ddfc.setfname(self.fname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 29, in setfname
+    self.driver.find_element_by_xpath(self.orderfirstname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 04:18:37 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:19:35 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:20:00 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 99, in test_0001
+    self.ddfc.setcardnum(self.ccnum)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 77, in setcardnum
+    self.driver.find_element_by_name(x).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="4242424242424242"]"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:20:00 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:21:29 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:21:59 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 103, in test_0001
+    self.ddfc.settandcbox()
+TypeError: settandcbox() missing 1 required positional argument: 'x'
+12/18/2020 04:21:59 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:22:49 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:23:15 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 105, in test_0001
+    self.waitAndsee()
+TypeError: waitAndsee() missing 1 required positional argument: 'elem'
+12/18/2020 04:23:15 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:24:30 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:24:55 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 102, in test_0001
+    self.ddfc.settandcbox()
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 88, in settandcbox
+    self.driver.find_element_by_xpath(self.ordertccheckbox).click()
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" id="terms"> is not clickable at point (691, 785). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background: rgb(255, 255, 255); opacity: 0.6; cursor: default; position: absolute;"></div>
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:24:55 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:26:35 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:27:00 PM: INFO: Test 1 = PASS
+12/18/2020 04:27:07 PM: INFO: Test 2 = PASS
+12/18/2020 04:27:09 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 86, in test_0001
+    self.ddfc.setfname(self.fname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 29, in setfname
+    self.driver.find_element_by_xpath(self.orderfirstname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 04:27:09 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:37:02 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:37:38 PM: INFO: Test 1 = PASS
+12/18/2020 04:37:42 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 97, in test_0001
+    self.ddfc.setiframe(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 97, in setiframe
+    self.driver.switch_to.frame(frame_reference=self.driver.find_element_by_xpath(x))
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div/section[2]/div/div/div/div/div/div/div/div/div/div/form/div[2]/div/div[2]/ul/li/div/div/fieldset/div[1]/div/iframe"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:37:42 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:38:53 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:39:19 PM: INFO: Test 1 = PASS
+12/18/2020 04:39:24 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 97, in test_0001
+    self.ddfc.setiframe(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 97, in setiframe
+    self.driver.switch_to.frame(frame_reference=self.driver.find_element_by_xpath(x))
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div/section[2]/div/div/div/div/div/div/div/div/div/div/form/div[2]/div/div[2]/ul/li/div/div/fieldset/div[1]/div/iframe"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:39:24 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:41:37 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:42:02 PM: INFO: Test 1 = PASS
+12/18/2020 04:42:08 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 98, in test_0001
+    self.ddfc.setiframe(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 97, in setiframe
+    self.driver.switch_to.frame(frame_reference=self.driver.find_element_by_xpath(x))
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div/section[2]/div/div/div/div/div/div/div/div/div/div/form/div[2]/div/div[2]/ul/li/div/div/fieldset/div[1]/div/iframe"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:42:08 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:42:34 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:43:43 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 98, in test_0001
+    self.ddfc.setiframe(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 97, in setiframe
+    self.driver.switch_to.frame(frame_reference=self.driver.find_element_by_xpath(x))
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div/section[2]/div/div/div/div/div/div/div/div/div/div/form/div[2]/div/div[2]/ul/li/div/div/fieldset/div[1]/div/iframe"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:43:43 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:44:44 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:45:06 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 104, in test_0001
+    self.ddfc.settandcbox()
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 94, in settandcbox
+    self.driver.find_element_by_xpath(self.ordertccheckbox).click()
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" id="terms"> is not clickable at point (691, 785). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background: rgb(255, 255, 255); opacity: 0.0929246; cursor: default; position: absolute;"></div>
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:45:06 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:45:47 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:46:10 PM: INFO: Test 1 = PASS
+12/18/2020 04:46:19 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 97, in test_0001
+    self.waitAndsee(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 04:46:19 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:47:09 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:47:45 PM: INFO: Test 1 = PASS
+12/18/2020 04:48:04 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 98, in test_0001
+    self.waitAndsee(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/Configurations/BasicClassConfig.py", line 19, in waitAndsee
+    WebDriverWait(self.driver, time).until(
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+12/18/2020 04:48:04 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:49:23 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:50:51 PM: INFO: Test 1 = PASS
+12/18/2020 04:51:07 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 98, in test_0001
+    self.ddfc.setiframe(self.ddfc.orderccinfo)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 97, in setiframe
+    def setiframe(self, x):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div/section[2]/div/div/div/div/div/div/div/div/div/div/form/div[2]/div/div[2]/ul/li/div/div/fieldset/div[1]/div/iframe"}
+  (Session info: chrome=87.0.4280.88)
+
+12/18/2020 04:51:07 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:54:26 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:54:55 PM: INFO: Test 1 = PASS
+12/18/2020 04:55:07 PM: INFO: Test 2 = PASS
+12/18/2020 04:55:12 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 87, in test_0001
+    self.ddfc.setlname(self.lname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 36, in setlname
+    self.driver.find_element_by_xpath(self.orderlastname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 04:55:12 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 04:58:04 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 04:58:31 PM: INFO: Test 1 = PASS
+12/18/2020 04:58:42 PM: INFO: Test 2 = PASS
+12/18/2020 04:58:48 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 87, in test_0001
+    self.ddfc.setlname(self.lname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 36, in setlname
+    self.driver.find_element_by_xpath(self.orderlastname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 04:58:48 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 05:01:15 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 05:01:43 PM: INFO: Test 1 = PASS
+12/18/2020 05:01:54 PM: INFO: Test 2 = PASS
+12/18/2020 05:02:00 PM: ERROR: --Could not locate ELEMENT by XPATH
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/testCases/DDPurchase.py", line 87, in test_0001
+    self.ddfc.setlname(self.lname)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/pageObjects/DDFederalCheckout.py", line 36, in setlname
+    self.driver.find_element_by_xpath(self.orderlastname).send_keys(x)
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/Users/philiprealini/Desktop/Stuff/Python/SeleniumAutomation/venv/lib/python3.8/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'NoneType' has no len()
+12/18/2020 05:02:00 PM: INFO: fc.orderfirstname XPATH = //*[@id="billing_first_name"]
+
+12/18/2020 05:03:15 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 05:03:38 PM: INFO: Test 1 = PASS
+12/18/2020 05:03:46 PM: INFO: Test 2 = PASS
+12/18/2020 05:03:48 PM: INFO: 
+
+12/18/2020 05:04:26 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 05:04:48 PM: INFO: Test 1 = PASS
+12/18/2020 05:04:56 PM: INFO: Test 2 = PASS
+12/18/2020 05:04:59 PM: INFO: 
+
+12/18/2020 08:49:23 PM: INFO: ***basic: test_0001: Bad Purchase Info***
+12/18/2020 08:49:45 PM: INFO: Test 1 = PASS
+12/18/2020 08:49:52 PM: INFO: Test 2 = PASS
+12/18/2020 08:49:55 PM: INFO: PASSED
+
+03/05/2021 01:43:38 PM: INFO: ***basic: Login to Account and Logout***
+03/05/2021 01:44:20 PM: INFO: PASSED
+03/05/2021 01:45:42 PM: INFO: ***basic: Login to Account and Logout***
+03/05/2021 01:46:17 PM: INFO: PASSED
+03/08/2021 05:07:46 PM: INFO: ***basic: test_0001: Send a tweet***
+03/08/2021 05:07:53 PM: INFO: Now in second window
+03/08/2021 05:07:54 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/08/2021 05:33:33 PM: INFO: ***basic: test_0001: Send a tweet***
+03/08/2021 05:33:41 PM: INFO: Now in second window
+03/08/2021 05:33:43 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/08/2021 05:36:56 PM: INFO: ***basic: test_0001: Send a tweet***
+03/08/2021 05:37:03 PM: INFO: Now in second window
+03/08/2021 05:37:05 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/08/2021 05:42:55 PM: INFO: ***basic: test_0001: Send a tweet***
+03/08/2021 05:43:01 PM: INFO: Now in second window
+03/08/2021 05:43:03 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/08/2021 05:44:33 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/08/2021 05:44:40 PM: ERROR: --Could not locate ELEMENT by XPATH or Excel parameters are wrong.
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/TESTS/DDTESTS/DDLogin.py", line 30, in test_valid_logins
+    self.rows = ExcelUtilities.getRowCount(self.dataPath, 'Sheet1')
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/UTILITIES/ExcelUtilities.py", line 4, in getRowCount
+    workbook = openpyxl.load_workbook(file)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/zipfile.py", line 1250, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '../DDTESTDATA/data.xlsx'
+03/08/2021 05:45:43 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/08/2021 05:45:48 PM: ERROR: --Could not locate ELEMENT by XPATH or Excel parameters are wrong.
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/TESTS/DDTESTS/DDLogin.py", line 30, in test_valid_logins
+    self.rows = ExcelUtilities.getRowCount(self.dataPath, 'Sheet1')
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/UTILITIES/ExcelUtilities.py", line 4, in getRowCount
+    workbook = openpyxl.load_workbook(file)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/zipfile.py", line 1250, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '.../DDTESTDATA/data.xlsx'
+03/08/2021 05:46:46 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/08/2021 05:46:51 PM: ERROR: --Could not locate ELEMENT by XPATH or Excel parameters are wrong.
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/TESTS/DDTESTS/DDLogin.py", line 32, in test_valid_logins
+    self.rows = ExcelUtilities.getRowCount(self.dataPath, 'Sheet1')
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/UTILITIES/ExcelUtilities.py", line 4, in getRowCount
+    workbook = openpyxl.load_workbook(file)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/zipfile.py", line 1250, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '.../DDTESTDATA/data.xlsx'
+03/08/2021 05:47:02 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/08/2021 05:47:08 PM: ERROR: --Could not locate ELEMENT by XPATH or Excel parameters are wrong.
+Traceback (most recent call last):
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/TESTS/DDTESTS/DDLogin.py", line 32, in test_valid_logins
+    self.rows = ExcelUtilities.getRowCount(self.dataPath, 'Sheet1')
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/SELENIUM/UTILITIES/ExcelUtilities.py", line 4, in getRowCount
+    workbook = openpyxl.load_workbook(file)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 315, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "/Users/philiprealini/Desktop/Stuff/Python/AutomationFramework/venv/lib/python3.8/site-packages/openpyxl/reader/excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/zipfile.py", line 1250, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '.../DDTESTDATA/data.xlsx'
+03/08/2021 05:47:50 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/08/2021 05:48:05 PM: INFO: Test 1 = PASS
+03/08/2021 05:48:15 PM: INFO: ['Pass']
+03/08/2021 05:48:23 PM: INFO: Could not find element = //*[@id="account_display_name"]
+03/08/2021 05:48:23 PM: INFO: Test 2 = PASS
+03/08/2021 05:48:32 PM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+03/08/2021 05:48:32 PM: INFO: Test 2 = FAIL
+03/08/2021 05:48:32 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@12
+03/08/2021 05:48:32 PM: INFO: ['Pass', 'Fail']
+03/08/2021 05:48:40 PM: INFO: Could not find element = //*[@id="account_display_name"]
+03/08/2021 05:48:40 PM: INFO: Test 3 = PASS
+03/08/2021 05:48:50 PM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+03/08/2021 05:48:50 PM: INFO: Test 3 = FAIL
+03/08/2021 05:48:50 PM: INFO: ID:admin@validateservice.com   PASS:VSSadmin@1
+03/08/2021 05:48:50 PM: INFO: ['Pass', 'Fail', 'Fail']
+03/08/2021 05:48:50 PM: INFO: 
+
+03/09/2021 01:48:50 PM: INFO: ***basic: test_0001: Send a tweet***
+03/09/2021 01:48:57 PM: INFO: Now in second window
+03/09/2021 01:49:03 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 03:17:46 PM: INFO: ***basic: Login to Account and Logout***
+03/09/2021 03:19:02 PM: INFO: PASSED
+03/09/2021 03:20:06 PM: INFO: ***basic: Login to Account and Logout***
+03/09/2021 03:20:43 PM: INFO: PASSED
+03/09/2021 03:22:42 PM: INFO: ***basic: test_0001: Send a tweet***
+03/09/2021 03:22:50 PM: INFO: Now in second window
+03/09/2021 03:23:03 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 03:26:15 PM: INFO: ***basic: test_0001: Send a tweet***
+03/09/2021 03:26:22 PM: INFO: Now in second window
+03/09/2021 03:26:24 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/09/2021 03:26:30 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 03:26:37 PM: INFO: PASSED
+03/09/2021 03:33:54 PM: INFO: ***basic: test_0001: Send a tweet***
+03/09/2021 03:34:00 PM: INFO: Now in second window
+03/09/2021 03:34:02 PM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/09/2021 03:34:07 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 03:34:14 PM: INFO: PASSED
+03/09/2021 03:35:23 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 03:35:30 PM: INFO: PASSED
+03/09/2021 04:39:57 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/09/2021 04:40:32 PM: INFO: PASSED
+03/09/2021 04:40:39 PM: INFO: ***basic: test_0001: Purchase BackgroundCheck***
+03/09/2021 04:41:14 PM: INFO: PASSED
+03/09/2021 05:02:35 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:02:43 PM: INFO: PASSED
+03/09/2021 05:02:50 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:03:00 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:03:00 PM: INFO: Could not find verify text.
+03/09/2021 05:05:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:05:28 PM: INFO: PASSED
+03/09/2021 05:05:34 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:05:43 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:05:43 PM: INFO: Could not find verify text.
+03/09/2021 05:06:41 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:06:49 PM: INFO: PASSED
+03/09/2021 05:06:56 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:07:07 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:07:07 PM: INFO: Could not find verify text.
+03/09/2021 05:07:45 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:07:53 PM: INFO: PASSED
+03/09/2021 05:08:02 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:08:13 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:08:13 PM: INFO: Could not find verify text.
+03/09/2021 05:09:08 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:09:15 PM: INFO: PASSED
+03/09/2021 05:09:22 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:09:32 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:09:32 PM: INFO: Could not find verify text.
+03/09/2021 05:11:39 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:11:47 PM: INFO: PASSED
+03/09/2021 05:11:55 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:12:05 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:12:05 PM: INFO: Could not find verify text.
+03/09/2021 05:14:56 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:15:03 PM: INFO: PASSED
+03/09/2021 05:15:10 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:15:20 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:15:20 PM: INFO: Could not find verify text.
+03/09/2021 05:16:02 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:16:10 PM: INFO: PASSED
+03/09/2021 05:16:15 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:16:25 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:16:25 PM: INFO: Could not find verify text.
+03/09/2021 05:18:55 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:19:02 PM: INFO: PASSED
+03/09/2021 05:19:08 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:19:18 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:19:18 PM: INFO: Could not find verify text.
+03/09/2021 05:19:37 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:19:46 PM: INFO: PASSED
+03/09/2021 05:19:53 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:20:04 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:20:04 PM: INFO: Could not find verify text.
+03/09/2021 05:20:14 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:20:24 PM: INFO: PASSED
+03/09/2021 05:20:31 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:20:42 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:20:42 PM: INFO: Could not find verify text.
+03/09/2021 05:25:04 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:25:13 PM: INFO: PASSED
+03/09/2021 05:25:20 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:25:31 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:25:31 PM: INFO: Could not find verify text.
+03/09/2021 05:26:03 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:26:10 PM: INFO: PASSED
+03/09/2021 05:26:18 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:26:29 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:26:29 PM: INFO: Could not find verify text.
+03/09/2021 05:27:29 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:27:37 PM: INFO: PASSED
+03/09/2021 05:27:46 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:27:57 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:27:57 PM: INFO: Could not find verify text.
+03/09/2021 05:29:46 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:29:54 PM: INFO: PASSED
+03/09/2021 05:30:02 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:30:13 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:30:13 PM: INFO: Could not find verify text.
+03/09/2021 05:30:30 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:30:40 PM: INFO: PASSED
+03/09/2021 05:30:49 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:31:01 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:31:01 PM: INFO: Could not find verify text.
+03/09/2021 05:34:10 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:34:17 PM: INFO: PASSED
+03/09/2021 05:34:22 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:34:31 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:34:31 PM: INFO: Could not find verify text.
+03/09/2021 05:35:56 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:36:03 PM: INFO: PASSED
+03/09/2021 05:36:09 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:36:19 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:36:19 PM: INFO: Could not find verify text.
+03/09/2021 05:37:33 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:37:43 PM: INFO: PASSED
+03/09/2021 05:37:50 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/09/2021 05:38:00 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/09/2021 05:38:00 PM: INFO: Could not find verify text.
+03/09/2021 08:31:58 PM: INFO: Peter
+03/09/2021 08:31:58 PM: INFO: PASSED
+
+03/09/2021 08:37:52 PM: INFO: Peter
+03/09/2021 08:37:52 PM: INFO: PASSED
+
+03/10/2021 12:49:15 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 12:49:22 PM: INFO: PASSED
+03/10/2021 12:49:28 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 12:49:37 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 12:49:37 PM: INFO: Could not find verify text.
+03/10/2021 01:30:42 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:30:50 PM: INFO: PASSED
+03/10/2021 01:30:54 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:31:04 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 01:31:04 PM: INFO: Could not find verify text.
+03/10/2021 01:32:06 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:32:13 PM: INFO: PASSED
+03/10/2021 01:32:18 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:32:28 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 01:32:28 PM: INFO: Could not find verify text.
+03/10/2021 01:42:50 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:43:00 PM: INFO: PASSED
+03/10/2021 01:43:07 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:43:19 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 01:43:19 PM: INFO: Could not find verify text.
+03/10/2021 01:43:39 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:43:47 PM: INFO: PASSED
+03/10/2021 01:43:54 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:44:04 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 01:44:04 PM: INFO: Could not find verify text.
+03/10/2021 01:49:30 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:49:39 PM: INFO: PASSED
+03/10/2021 01:49:47 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 01:49:58 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 01:49:58 PM: INFO: Could not find verify text.
+03/10/2021 02:00:04 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:00:12 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:18:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:18:29 PM: INFO: PASSED
+03/10/2021 02:18:34 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:18:44 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 02:18:44 PM: INFO: Could not find verify text.
+03/10/2021 02:20:54 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:21:02 PM: INFO: PASSED
+03/10/2021 02:21:09 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:21:18 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 02:21:18 PM: INFO: Could not find verify text.
+03/10/2021 02:22:50 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:22:57 PM: INFO: PASSED
+03/10/2021 02:23:04 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:23:13 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 02:23:13 PM: INFO: Could not find verify text.
+03/10/2021 02:34:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:34:28 PM: INFO: PASSED
+03/10/2021 02:34:33 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:34:43 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 02:34:43 PM: INFO: Could not find verify text.
+03/10/2021 02:35:06 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:35:14 PM: INFO: PASSED
+03/10/2021 02:35:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:35:32 PM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/10/2021 02:35:32 PM: INFO: Could not find verify text.
+03/10/2021 02:36:39 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:36:45 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:38:36 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:38:41 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:42:02 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:42:07 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:45:16 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 02:45:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:01:22 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:01:28 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:19:03 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:19:36 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:24:10 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:24:15 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:28:44 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:28:50 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:59:21 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 03:59:27 PM: INFO: ***basic: test_0002: Sign up for discount***
+03/10/2021 04:37:12 PM: INFO: ***basic: Login to Account and Logout***
+03/10/2021 04:37:37 PM: INFO: PASSED
+03/10/2021 04:37:44 PM: INFO: ***basic: Login to Account and Logout***
+03/10/2021 04:38:07 PM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+03/10/2021 04:38:24 PM: INFO: ***basic: Login to Account and Logout***
+03/10/2021 04:38:50 PM: INFO: PASSED
+03/10/2021 04:38:58 PM: INFO: ***basic: Login to Account and Logout***
+03/10/2021 04:39:19 PM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+03/11/2021 10:31:37 AM: INFO: ***basic: Login to Account and Logout***
+03/11/2021 10:31:44 AM: INFO: Could not find element = //*[@id="username"]
+03/11/2021 10:32:01 AM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a
+03/11/2021 10:51:28 AM: INFO: ***basic: test_0001: Send a tweet***
+03/11/2021 10:51:36 AM: INFO: Now in second window
+03/11/2021 10:51:37 AM: INFO: Signed into twitter but did not send the tweet. Just requires one more command.
+03/11/2021 10:51:45 AM: INFO: ***basic: test_0002: Sign up for discount***
+03/11/2021 10:51:54 AM: INFO: PASSED
+03/11/2021 10:51:59 AM: INFO: ***basic: test_0002: Sign up for discount***
+03/11/2021 10:52:10 AM: INFO: Could not find element = //*[@id="main"]/div/div/section[4]/div/div/div/div/div/div[2]/div/form/div[2]
+03/11/2021 10:52:10 AM: INFO: Could not find verify text.
+03/11/2021 10:52:44 AM: INFO: ***basic: Login to Account and Logout***
+03/11/2021 10:53:12 AM: INFO: Title = My Account | Validate Services != My Account | Validate Services
+03/11/2021 10:53:20 AM: INFO: ***basic: Login to Account and Logout***
+03/11/2021 10:53:41 AM: INFO: Could not find element = //*[@id="post-1537"]/div/div/div/div/section[3]/div/div/div/div/div/div/div/div/div/div/div/div/a

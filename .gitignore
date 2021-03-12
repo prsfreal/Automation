@@ -1,0 +1,10 @@
+*.env
+*.json
+*.pickle
+*.logs
+*.apk
+*.app
+*.ipa
+MOBILE/APPS/
+venv/
+

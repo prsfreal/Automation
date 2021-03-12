@@ -1,0 +1,16 @@
+google-api-python-client
+pipdeptree
+python-decouple
+google-api-python-client
+google-auth-oauthlib
+requests
+Jsonpath
+pytest
+python-decouple
+bs4
+beautifulsoup4
+selenium
+Appium-Python-Client
+mysql-connector-python
+openpyxl
+pytest-html
